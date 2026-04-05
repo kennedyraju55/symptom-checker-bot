@@ -28,14 +28,14 @@ def main():
     # Assess urgency level based on symptom keywords.
     print("📝 Example: assess_urgency()")
     result = assess_urgency(
-        symptoms_text="The quick brown fox jumps over the lazy dog. This is a sample text for demonstration purposes."
+        symptoms_text=["headache", "fever", "fatigue"]
     )
     print(f"   Result: {result}")
     print()
     # Identify which body regions are affected by the described symptoms.
     print("📝 Example: get_body_regions()")
     result = get_body_regions(
-        symptoms_text="The quick brown fox jumps over the lazy dog. This is a sample text for demonstration purposes."
+        symptoms_text=["headache", "fever", "fatigue"]
     )
     print(f"   Result: {result}")
     print()
